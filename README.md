@@ -75,7 +75,7 @@ sudo ss -tlnp | grep ':22'
 Desde PowerShell o CMD en el equipo real:
 
 ```bash
-ssh USUARIO_DE_LINUX@IP_DE_LA_VM
+ssh USUARIO_DE_LINUX@<IP_VM>
 ```
 
 Una vez dentro, comprobar que se está en la VM con:
