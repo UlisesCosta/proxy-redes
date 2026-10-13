@@ -344,7 +344,7 @@ systemctl status 3proxy --no-pager
 ```bash
 sudo apt install -y ufw
 sudo ufw allow 22/tcp
-sudo ufw allow from <IP_VM>/24 to any port 3128 proto tcp
+  sudo ufw allow from <RED_LOCAL>/24 to any port 3128 proto tcp
 sudo ufw enable
 sudo ufw status verbose
 ```
